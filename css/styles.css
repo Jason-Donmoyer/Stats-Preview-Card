@@ -41,6 +41,71 @@
 
 /*********** GLOBAL STYLES ***********/
 
-body {
-  font-family: var(--inter);
+
+/* Box-Sizing */
+html {
+  box-sizing: border-box;
 }
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* Body Styles */
+body {
+  background-color: var(--main-background-blue);
+  font-family: var(--inter);
+  font-size: var(--body-copy);
+  color: var(--paragraph-white);
+  text-align: center;
+}
+
+/* Container */
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+/*********** MAIN CONTAINER ***********/
+
+
+#main-container {
+  height: 100vh;
+}
+
+
+/*********** CONTENT CONTAINER ***********/
+
+
+#content-container {
+  height: 100%;
+  /* padding: 40px; */
+  margin: 3.75em 1.4em;
+  background-color: var(--card-background-blue);
+  
+}
+
+
+/*********** IMAGE CONTAINER ***********/
+
+
+#image-container {
+  /* height: 240px; */
+  /* width: 100%; */
+  background-color: var(--accent-violet);
+  border-radius: 5px 5px 0 0;
+  /* background-image: url('../images/image-header-mobile.jpg'); */
+  
+}
+
+#image-container img {
+  opacity: 50%;
+  border-radius: 5px 5px 0 0;
+}
+
+
+/*********** TEXT CONTAINER ***********/
+
+
+
