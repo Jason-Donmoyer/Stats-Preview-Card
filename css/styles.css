@@ -108,4 +108,19 @@ body {
 /*********** TEXT CONTAINER ***********/
 
 
+#text-container {
+  font-size: 0.6em;
+  margin-top: 1em;
+}
 
+
+
+
+
+/*********** FOOTER ***********/
+
+
+footer {
+  position: fixed;
+  bottom: 0;
+}
