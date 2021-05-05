@@ -65,6 +65,11 @@ body {
   flex-direction: column;
 }
 
+/* p */
+p {
+  font-size: 1.36em;
+  line-height: 2em;
+}
 
 
 /*********** MAIN CONTAINER ***********/
@@ -111,7 +116,25 @@ body {
 #text-container {
   font-size: 0.6em;
   margin-top: 1em;
+  height: 100%;
+  justify-content: space-evenly;
+  padding: 1.25em;
 }
+
+/* Highlight-text */
+#highlight-text {
+  color: var(--accent-violet);
+}
+
+/*********** INFO CONTAINER ***********/
+
+
+.info-container {
+  line-height: 0.22em;
+  justify-content: center;
+}
+
+
 
 
 
@@ -120,7 +143,3 @@ body {
 /*********** FOOTER ***********/
 
 
-footer {
-  position: fixed;
-  bottom: 0;
-}
